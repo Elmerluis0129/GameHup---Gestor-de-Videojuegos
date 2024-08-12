@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\OneDrive\\Escritorio\\Gestor de VideoJuegos\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\OneDrive\\Escritorio\\Gestor de VideoJuegos\\wwwroot\\javascript.js",
+      "PackagePath": "staticwebassets\\javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\OneDrive\\Escritorio\\Gestor de VideoJuegos\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GestorDeVideojuegos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GestorDeVideojuegos.props",
+      "PackagePath": "build\\GestorDeVideojuegos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GestorDeVideojuegos.props",
+      "PackagePath": "buildMultiTargeting\\GestorDeVideojuegos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GestorDeVideojuegos.props",
+      "PackagePath": "buildTransitive\\GestorDeVideojuegos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

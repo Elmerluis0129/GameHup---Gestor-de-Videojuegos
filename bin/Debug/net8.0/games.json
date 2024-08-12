@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "Fortnite",
+    "Description": "Es un popular videojuego en línea desarrollado por Epic Games, lanzado en 2017. Combina elementos de construcción, disparos y supervivencia en un entorno multijugador. El juego ofrece varios modos, siendo el más destacado \"Battle Royale\", donde 100 jugadores compiten para ser el último en pie en una isla que se va reduciendo con el tiempo. Los jugadores pueden construir estructuras para protegerse, recolectar recursos y equiparse con una variedad de armas y objetos. Fortnite también es conocido por su estilo gráfico colorido, eventos en vivo dentro del juego y la constante adición de nuevos contenidos.",
+    "ImageUrl": "https://th.bing.com/th/id/OIP.lXGKgEapQmdaC8TSdWDiuwHaEK?rs=1&pid=ImgDetMain"
+  },
+  {
+    "Id": 2,
+    "Name": "Call Of Duty",
+    "Description": "Es una franquicia de videojuegos de disparos en primera persona desarrollada por varios estudios, con Activision como su editor principal. Lanzada por primera vez en 2003, la serie se ha convertido en una de las más exitosas y reconocidas en la industria de los videojuegos.",
+    "ImageUrl": "https://th.bing.com/th/id/OIP.kJSnZTvrWfLcGvloS67F7AAAAA?rs=1&pid=ImgDetMain"
+  },
+  {
+    "Id": 3,
+    "Name": "The Legend of Zelda: Breath of the Wild",
+    "Description": "Es un videojuego de acción y aventuras desarrollado y publicado por Nintendo. El juego se sitúa en un vasto mundo abierto donde los jugadores toman el control de Link, un héroe que despierta de un largo sueño para encontrar el reino de Hyrule en ruinas. Link debe explorar el mundo, resolver acertijos, combatir enemigos, y recolectar recursos mientras busca rescatar a la princesa Zelda y detener al malvado Calamity Ganon. Con su innovadora jugabilidad, libertad de exploración, y gráficos impresionantes, este juego ha sido aclamado como uno de los mejores videojuegos de todos los tiempos.",
+    "ImageUrl": "https://th.bing.com/th/id/OIP.RcaitIavAsCXhjD4aii8LQHaLH?rs=1&pid=ImgDetMain"
+  },
+  {
+    "Id": 4,
+    "Name": "Minecraft",
+    "Description": "Es un videojuego de construcción y aventuras que permite a los jugadores explorar un mundo generado por procedimientos compuesto de bloques tridimensionales. Los jugadores pueden recolectar recursos, construir estructuras, y crear herramientas para sobrevivir en varios modos de juego, incluidos supervivencia, creativo, y aventura. Con su estilo gráfico distintivo y su jugabilidad abierta, Minecraft ha logrado una gran popularidad, convirtiéndose en uno de los videojuegos más vendidos de todos los tiempos y una plataforma creativa donde millones de jugadores han construido y compartido sus mundos e historias.",
+    "ImageUrl": "https://i.ytimg.com/vi/qNMfF9TYETM/maxresdefault.jpg"
+  }
+]

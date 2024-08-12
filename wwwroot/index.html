@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHup - Gestión de Juegos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de que el nombre del archivo de estilo sea correcto -->
+    <script src="javascript.js" defer></script> <!-- Vincula el archivo JavaScript externo y usa 'defer' para cargarlo después del HTML -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>GameHup</h1>
+            <nav>
+                <ul>
+                    <li><a href="#games">Juegos</a></li>
+                    <li><a href="#add-game">Añadir Juego</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Bienvenido a GameHup</h2>
+            <p>La mejor herramienta para gestionar tus juegos favoritos</p>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="section">
+        <div class="container">
+            <h2>Lista de Juegos</h2>
+            
+            <!-- Barra de búsqueda -->
+            <input type="text" id="search-bar" placeholder="Buscar por nombre de juego..." oninput="filterGames()">
+            
+            <div class="games-container">
+                <!-- Aquí se insertarán las tarjetas de juegos obtenidas de la API -->
+            </div>
+            <div class="pagination-container" style="text-align: center; margin-top: 20px;">
+                <!-- Aquí se insertarán los botones de paginación -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Add Game Section -->
+    <section id="add-game" class="section">
+        <div class="container">
+            <h2>Añadir o Editar un Juego</h2>
+            <!-- Contenedor para los mensajes de error y éxito -->
+            <div id="error-message" style="display: none; color: red; margin-bottom: 20px;"></div>
+            <div id="success-message" style="display: none; color: green; margin-bottom: 20px;"></div>
+
+            <form id="game-form" onsubmit="submitGame(event)">
+                <div class="form-group">
+                    <label for="game-id">ID del Juego:</label>
+                    <input type="text" id="game-id" name="game-id" placeholder="Presionar el boton 'Editar'" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label for="game-name">Nombre del Juego:</label>
+                    <input type="text" id="game-name" name="game-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="game-description">Descripción:</label>
+                    <textarea id="game-description" name="game-description" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="game-image">Imagen del Juego:</label>
+                    <input type="url" id="game-image" name="game-image" placeholder="URL de la imagen" required>
+                    
+                    <!-- Contenedor para la previsualización de la imagen -->
+                    <div id="image-preview-container">
+                        <p id="preview-text">Previsualización:</p>
+                        <img id="image-preview" style="max-width: 100%;" alt="Previsualización de la imagen" />
+                    </div>
+                </div>                
+                <button type="submit">Añadir Juego</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Modal para la descripción del juego -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-game-name"></h3>
+            <img id="modal-game-image" src="" alt="Imagen del Juego" style="max-width: 100%; height: auto;">
+            <p id="modal-game-description"></p>
+
+            <!-- Botones de acción para editar y eliminar -->
+            <div class="modal-buttons">
+                <button id="edit-button" class="edit-button">Editar</button>
+                <button id="delete-button" class="delete-button">Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GameHup. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
