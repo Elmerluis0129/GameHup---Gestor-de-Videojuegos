@@ -51,7 +51,7 @@ Comando: git clone https://github.com/Elmerluis0129/GameHup-Gestor-de-Videojuego
 Paso 2: Navega al Directorio del Proyecto
 Una vez clonado el repositorio, navega al directorio donde se encuentra el proyecto Backend del Gestor de Videojuegos. Si clonaste el proyecto en C:/GameHUB, navega a ese directorio. Si lo clonaste en otro lugar, usa la ruta correspondiente.
 
-Comando: cd C:/GameHUB
+Comando: cd C:/GameHup-Gestor-de-Videojuegos
 
 
 Paso 3: Restaura los Paquetes NuGet
@@ -75,7 +75,7 @@ Comando: dotnet run
 Paso 6: Accede a la Aplicación Frontend
 Para visualizar la aplicación frontend, abre el archivo index.html en un navegador web. Este archivo se encuentra dentro del directorio wwwroot, que es parte del repositorio clonado.
 
-Ruta del archivo: C:/GameHUB/wwwroot/index.html (Tener en cuenta que la ruta puede variar segun el dispositivo.
+Ruta del archivo: C:/GameHup-Gestor-de-Videojuegos/wwwroot/index.html (Tener en cuenta que la ruta puede variar segun el dispositivo.
 Abre este archivo en tu navegador web preferido para comenzar a utilizar la aplicación de gestión de videojuegos.
 
 Paso 7: Verificación
