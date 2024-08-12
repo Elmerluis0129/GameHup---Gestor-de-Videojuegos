@@ -6,12 +6,19 @@ GameHup es una aplicación web para la gestión de una colección de videojuegos
 Características
 -
 Listado de Videojuegos: Muestra una lista de todos los videojuegos almacenados en la base de datos.
+
 Agregar Juegos: Permite añadir nuevos videojuegos con información como el nombre, la descripción y la imagen del juego.
+
 Editar Juegos: Posibilidad de modificar los detalles de los videojuegos existentes.
+
 Eliminar Juegos: Funcionalidad para eliminar videojuegos de la lista.
+
 Previsualización de Imagen: Al agregar o editar un juego, se muestra una previsualización de la imagen antes de guardar los cambios.
+
 Persistencia de Datos: Los juegos se almacenan en un archivo JSON o base de datos, permitiendo la persistencia de la información a través de las sesiones.
+
 Tecnologías Utilizadas
+-
 Backend: ASP.NET Core
 Frontend: HTML5, CSS3, JavaScript
 Persistencia: Archivos JSON (puede ser extendido a bases de datos)
