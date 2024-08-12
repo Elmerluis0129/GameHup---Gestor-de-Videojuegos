@@ -20,8 +20,11 @@ Persistencia de Datos: Los juegos se almacenan en un archivo JSON o base de dato
 Tecnologías Utilizadas
 -
 Backend: ASP.NET Core
+
 Frontend: HTML5, CSS3, JavaScript
+
 Persistencia: Archivos JSON (puede ser extendido a bases de datos)
+
 Serialización: Newtonsoft.Json
 
 Instalación
